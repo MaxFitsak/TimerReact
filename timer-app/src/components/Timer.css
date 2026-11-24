@@ -1,0 +1,75 @@
+.timer-container {
+  width: 340px;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.timer-title {
+  margin: 0 0 16px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.timer-input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+}
+
+.timer-input:focus {
+  border-color: #2563eb;
+}
+
+.timer-input:disabled {
+  background-color: #f9fafb;
+  color: #9ca3af;
+}
+
+.timer-display {
+  margin: 20px 0;
+  font-size: 44px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-start {
+  background-color: #16a34a;
+  color: #fff;
+}
+
+.btn-stop {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+.btn-reset {
+  background-color: #e5e7eb;
+  color: #111827;
+}
